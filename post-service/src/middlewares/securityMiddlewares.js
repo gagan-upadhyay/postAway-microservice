@@ -1,6 +1,6 @@
 import helmet from 'helmet';
-import ExpressMongoSanitize from 'express-mongo-sanitize';
-import xss from 'xss-clean';
+// import ExpressMongoSanitize from 'express-mongo-sanitize';
+// import xss from 'xss-clean';
 import hpp from 'hpp';
 import {authLimiter} from './rateLimiter.js';
 import cors from 'cors';

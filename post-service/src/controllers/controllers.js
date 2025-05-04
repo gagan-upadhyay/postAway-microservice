@@ -39,6 +39,7 @@ export const getPosts = async (req, res) => {
     }
 }
 
+
 export const getPostById = async (req, res) => {
     try{
         const {id} = req.params;

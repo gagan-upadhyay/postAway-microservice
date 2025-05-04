@@ -10,7 +10,7 @@ const applySecurityMiddlewares=(app)=>{
     // app.use(ExpressMongoSanitize());
     // app.use(xss());
     app.use(hpp());
-    app.use(authLimiter);
+    // app.use(authLimiter);
     app.use(cors({
         origin:process.env.FRONTEND_URL|| '*',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],

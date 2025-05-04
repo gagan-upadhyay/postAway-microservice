@@ -5,11 +5,15 @@
   "license": "ISC",
   "author": "Gagan Upadhyay",
   "type": "module",
+  "jest": {
+    "transform": {}
+  },
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-windows": "node --experimental-vm-modules --trace-warnings ./node_modules/jest/bin/jest.js",
+    "test-unix": "node --experimental-vm-modules node_modules/.bin/jest"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -19,6 +23,7 @@
     "express": "^5.1.0",
     "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
     "helmet": "^8.1.0",
     "hpp": "^0.2.3",
     "jsonwebtoken": "^9.0.2",
@@ -28,7 +33,10 @@
     "xss-clean": "^0.1.4"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.1.4",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.0"
   }
 }

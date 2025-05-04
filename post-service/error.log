@@ -1,0 +1,72 @@
+{"level":"error","timestamp":"2025-05-03T08:27:48.935Z"}
+{"expiredAt":"2025-05-03T09:00:12.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2025-05-03T10:17:29.414Z"}
+{"level":"error","timestamp":"2025-05-04T05:59:39.692Z"}
+{"level":"error","timestamp":"2025-05-04T06:00:21.874Z"}
+{"level":"error","timestamp":"2025-05-04T06:02:55.967Z"}
+{"level":"error","timestamp":"2025-05-04T06:16:58.802Z"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\":id\"","value":":id","valueType":"string"}
+{"level":"error","timestamp":"2025-05-04T06:58:06.887Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T06:58:07.049Z"}
+{"level":"error","timestamp":"2025-05-04T06:59:05.659Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T06:59:05.780Z"}
+{"level":"error","timestamp":"2025-05-04T06:59:33.598Z"}
+{"level":"error","timestamp":"2025-05-04T06:59:33.794Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T06:59:33.870Z"}
+{"level":"error","timestamp":"2025-05-04T07:08:23.222Z"}
+{"level":"error","timestamp":"2025-05-04T07:08:57.194Z"}
+{"_message":"Post validation failed","errors":{"title":{"kind":"required","message":"Path `title` is required.","name":"ValidatorError","path":"title","properties":{"message":"Path `title` is required.","path":"title","type":"required"}}},"level":"error","message":"Post validation failed: title: Path `title` is required.","name":"ValidationError","timestamp":"2025-05-04T09:16:08.196Z"}
+{"_message":"Post validation failed","errors":{"title":{"kind":"required","message":"Path `title` is required.","name":"ValidatorError","path":"title","properties":{"message":"Path `title` is required.","path":"title","type":"required"}}},"level":"error","message":"Post validation failed: title: Path `title` is required.","name":"ValidationError","timestamp":"2025-05-04T09:52:47.831Z"}
+{"_message":"Post validation failed","errors":{"caption":{"kind":"required","message":"Path `caption` is required.","name":"ValidatorError","path":"caption","properties":{"message":"Path `caption` is required.","path":"caption","type":"required"}}},"level":"error","message":"Post validation failed: caption: Path `caption` is required.","name":"ValidationError","timestamp":"2025-05-04T10:19:06.890Z"}
+{"_message":"Post validation failed","errors":{"title":{"kind":"required","message":"Path `title` is required.","name":"ValidatorError","path":"title","properties":{"message":"Path `title` is required.","path":"title","type":"required"}}},"level":"error","message":"Post validation failed: title: Path `title` is required.","name":"ValidationError","timestamp":"2025-05-04T10:22:34.323Z"}
+{"_message":"Post validation failed","errors":{"title":{"kind":"required","message":"Path `title` is required.","name":"ValidatorError","path":"title","properties":{"message":"Path `title` is required.","path":"title","type":"required"}}},"level":"error","message":"Post validation failed: title: Path `title` is required.","name":"ValidationError","timestamp":"2025-05-04T10:23:45.837Z"}
+{"level":"error","message":"Need Image Url of POst","timestamp":"2025-05-04T10:38:10.104Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:39:14.303Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:47:01.063Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:48:09.287Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:49:05.472Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:49:17.285Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:50:06.211Z"}
+{"level":"error","timestamp":"2025-05-04T10:50:49.496Z"}
+{"level":"error","timestamp":"2025-05-04T10:50:49.599Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T10:50:49.650Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T10:50:49.736Z"}
+{"level":"error","timestamp":"2025-05-04T10:57:41.329Z"}
+{"level":"error","message":"jwt malformed","name":"JsonWebTokenError","timestamp":"2025-05-04T13:44:03.668Z"}
+{"level":"error","timestamp":"2025-05-04T13:47:10.819Z"}
+{"level":"error","timestamp":"2025-05-04T13:47:11.175Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T13:47:11.267Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T13:47:11.443Z"}
+{"level":"error","timestamp":"2025-05-04T14:08:37.205Z"}
+{"level":"error","timestamp":"2025-05-04T14:08:37.397Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T14:08:37.487Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:08:37.646Z"}
+{"level":"error","timestamp":"2025-05-04T14:11:23.866Z"}
+{"level":"error","timestamp":"2025-05-04T14:11:24.111Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T14:11:24.181Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:11:24.381Z"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzY3ODg0LCJleHAiOjE3NDYzNzE0ODR9.HS7d-8iwwIVs2SiRFRqvYmmcxIFKAWWBdj4R0NdA5GQ\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzY3ODg0LCJleHAiOjE3NDYzNzE0ODR9.HS7d-8iwwIVs2SiRFRqvYmmcxIFKAWWBdj4R0NdA5GQ\"","value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzY3ODg0LCJleHAiOjE3NDYzNzE0ODR9.HS7d-8iwwIVs2SiRFRqvYmmcxIFKAWWBdj4R0NdA5GQ","valueType":"string"}
+{"level":"error","timestamp":"2025-05-04T14:11:59.374Z"}
+{"level":"error","timestamp":"2025-05-04T14:11:59.568Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T14:11:59.649Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:11:59.798Z"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzY3OTIwLCJleHAiOjE3NDYzNzE1MjB9.eoWDb8xK3p1kSZbhl7XWLkddQ6mtxnJ6iuXOf96kuqs\" (type string) at path \"_id\" for model \"Post\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzY3OTIwLCJleHAiOjE3NDYzNzE1MjB9.eoWDb8xK3p1kSZbhl7XWLkddQ6mtxnJ6iuXOf96kuqs\"","value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzY3OTIwLCJleHAiOjE3NDYzNzE1MjB9.eoWDb8xK3p1kSZbhl7XWLkddQ6mtxnJ6iuXOf96kuqs","valueType":"string"}
+{"level":"error","timestamp":"2025-05-04T14:13:24.968Z"}
+{"level":"error","timestamp":"2025-05-04T14:13:25.179Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T14:13:25.261Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:13:25.501Z"}
+{"level":"error","timestamp":"2025-05-04T14:13:55.846Z"}
+{"level":"error","timestamp":"2025-05-04T14:13:56.051Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T14:13:56.125Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:13:56.264Z"}
+{"level":"error","timestamp":"2025-05-04T14:19:26.179Z"}
+{"level":"error","timestamp":"2025-05-04T14:19:26.327Z"}
+{"level":"error","message":"Post not found","timestamp":"2025-05-04T14:19:26.396Z"}
+{"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:19:26.889Z"}
