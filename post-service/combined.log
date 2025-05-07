@@ -326,3 +326,49 @@
 {"level":"info","message":{"email":"test@example.com","exp":1746371967,"iat":1746368367,"id":"12345"},"timestamp":"2025-05-04T14:19:27.330Z"}
 {"level":"info","message":{"__v":0,"_id":"6817776fbb7015aafcfea6de","caption":"Original caption","commentCount":0,"imageUrl":"http://image.url/original.jpg","likeCount":0,"title":"Original title"},"timestamp":"2025-05-04T14:19:27.338Z"}
 {"level":"info","message":{"email":"test@example.com","exp":1746371967,"iat":1746368367,"id":"12345"},"timestamp":"2025-05-04T14:19:27.360Z"}
+{"level":"error","message":"Need caption of post","timestamp":"2025-05-04T14:35:13.600Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:36:46.651Z"}
+{"level":"info","message":{"__v":0,"_id":"68177b7e7cdd5bab691be0c9","caption":"<script>alert('XSS')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"this is the title but no caption and no imageUrl"},"timestamp":"2025-05-04T14:36:46.672Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:39:09.905Z"}
+{"level":"info","message":{"__v":0,"_id":"68177c0d22bedccad1b9d045","caption":"Caption here","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"this is the title but no caption and no imageUrl"},"timestamp":"2025-05-04T14:39:09.936Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:39:31.820Z"}
+{"level":"info","message":{"__v":0,"_id":"68177c2322bedccad1b9d047","caption":"<script>alert('XSS')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"this is the title but no caption and no imageUrl"},"timestamp":"2025-05-04T14:39:31.827Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:46:35.690Z"}
+{"level":"info","message":{"__v":0,"_id":"68177dcbd64d969fb3cef6a4","caption":"Caption","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"this is the title and has caption and imageUrl"},"timestamp":"2025-05-04T14:46:35.719Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:47:01.919Z"}
+{"level":"info","message":{"__v":0,"_id":"68177de5d64d969fb3cef6a6","caption":"<script>alert('Hello')</script","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"this is the title and has caption and imageUrl"},"timestamp":"2025-05-04T14:47:01.924Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:47:52.801Z"}
+{"level":"info","message":{"__v":0,"_id":"68177e18d64d969fb3cef6a8","caption":"<script>alert('')</script","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data title"},"timestamp":"2025-05-04T14:47:52.806Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:47:59.266Z"}
+{"level":"info","message":{"__v":0,"_id":"68177e1fd64d969fb3cef6aa","caption":"<script>alert('hellow')</script","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data title"},"timestamp":"2025-05-04T14:47:59.269Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:51:55.806Z"}
+{"level":"error","timestamp":"2025-05-04T14:51:55.810Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:52:10.703Z"}
+{"level":"error","timestamp":"2025-05-04T14:52:10.705Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:52:18.809Z"}
+{"level":"error","timestamp":"2025-05-04T14:52:18.810Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:52:32.273Z"}
+{"level":"error","timestamp":"2025-05-04T14:52:32.274Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:53:09.957Z"}
+{"level":"error","message":"ReferenceError: typeofvalue is not defined\n    at sanitizeField (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/utils/sanitizeInputs.js:4:5)\n    at createPost (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/controllers/controllers.js:8:44)\n    at Layer.handleRequest (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at authMiddleware (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/middlewares/authMiddleware.js:25:5)\n    at Layer.handleRequest (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at postValidator (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/middlewares/ValidationMiddleware.js:16:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-05-04T14:53:09.962Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:53:40.986Z"}
+{"level":"info","message":{"__v":0,"_id":"68177f74668574e043c70071","caption":"caption","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data title"},"timestamp":"2025-05-04T14:53:41.023Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:53:45.432Z"}
+{"level":"info","message":{"__v":0,"_id":"68177f79668574e043c70073","caption":"<script>alert('hellow')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data title"},"timestamp":"2025-05-04T14:53:45.440Z"}
+{"level":"info","message":{"exp":1746372893,"iat":1746369293,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-04T14:54:51.315Z"}
+{"level":"info","message":{"__v":0,"_id":"68177fbb28630f32989364f3","caption":"<script>alert('hellow')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data title"},"timestamp":"2025-05-04T14:54:51.362Z"}
+{"expiredAt":"2025-05-04T15:34:53.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2025-05-07T14:06:06.792Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:06:27.815Z"}
+{"level":"info","message":{"__v":0,"_id":"681b68e38e62f7a1e0e2bf7b","caption":"this is caption","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad q12e q title"},"timestamp":"2025-05-07T14:06:27.868Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:12:48.965Z"}
+{"level":"info","message":{"__v":0,"_id":"681b6a6066d1c084e8b22788","caption":"this is caption","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad q12e q title"},"timestamp":"2025-05-07T14:12:48.998Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:13:04.731Z"}
+{"level":"info","message":{"__v":0,"_id":"681b6a7066d1c084e8b2278a","caption":"<script>alert('hellow')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad q12e q title"},"timestamp":"2025-05-07T14:13:04.736Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:17:14.422Z"}
+{"level":"info","message":{"__v":0,"_id":"681b6b6a193d6101ed2fd573","caption":"<script>alert('hellow')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad q12e q title"},"timestamp":"2025-05-07T14:17:14.447Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:17:49.973Z"}
+{"level":"info","message":{"__v":0,"_id":"681b6b8d41cbd144c518588a","caption":"<script>alert('hellow')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad q12e q title"},"timestamp":"2025-05-07T14:17:50.009Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:21:23.968Z"}
+{"level":"info","message":{"__v":0,"_id":"681b6c630b91052fcebe6ed3","caption":"<script>alert('hellow')</script>","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad a q title"},"timestamp":"2025-05-07T14:21:24.004Z"}
+{"level":"info","message":{"exp":1746630378,"iat":1746626778,"id":"68160dbf15efac4b060db228"},"timestamp":"2025-05-07T14:25:06.872Z"}
+{"level":"info","message":{"__v":0,"_id":"681b6d42a844024e9e229fd2","caption":"&lt;script&gt;alert('hellow')&lt;/script&gt;","commentCount":0,"imageUrl":"https://picsum.photos/","likeCount":0,"title":"Malicious data asd asdad a q title"},"timestamp":"2025-05-07T14:25:07.028Z"}

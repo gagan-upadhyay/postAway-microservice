@@ -70,3 +70,10 @@
 {"level":"error","timestamp":"2025-05-04T14:19:26.327Z"}
 {"level":"error","message":"Post not found","timestamp":"2025-05-04T14:19:26.396Z"}
 {"level":"error","message":"Need title of post","timestamp":"2025-05-04T14:19:26.889Z"}
+{"level":"error","message":"Need caption of post","timestamp":"2025-05-04T14:35:13.600Z"}
+{"level":"error","timestamp":"2025-05-04T14:51:55.810Z"}
+{"level":"error","timestamp":"2025-05-04T14:52:10.705Z"}
+{"level":"error","timestamp":"2025-05-04T14:52:18.810Z"}
+{"level":"error","timestamp":"2025-05-04T14:52:32.274Z"}
+{"level":"error","message":"ReferenceError: typeofvalue is not defined\n    at sanitizeField (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/utils/sanitizeInputs.js:4:5)\n    at createPost (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/controllers/controllers.js:8:44)\n    at Layer.handleRequest (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at authMiddleware (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/middlewares/authMiddleware.js:25:5)\n    at Layer.handleRequest (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Code\\BackEnd\\PostAway_With_MicroservicesArch\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at postValidator (file:///C:/Code/BackEnd/PostAway_With_MicroservicesArch/post-service/src/middlewares/ValidationMiddleware.js:16:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-05-04T14:53:09.962Z"}
+{"expiredAt":"2025-05-04T15:34:53.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2025-05-07T14:06:06.792Z"}

@@ -1,11 +1,14 @@
 import PostModel from '../models/postModels.js';
 
 import logger from '../../../post-service/src/utils/logger.js';
+import { sanitizeField } from '../utils/sanitizeInputs.js';
 
 export const createPost = async (req, res) => {
     try{
-        const {title, caption, imageUrl} = req.body;
-        const userId = req.user.id; // authMiddleware sets req.user
+        const title = sanitizeField(req.body.title);
+        const caption = sanitizeField(req.body.caption);
+        const imageUrl = sanitizeField(req.body.imageUrl);
+        const userId = sanitizeField(req.user.id); // authMiddleware sets req.user
         const newPost = new PostModel({
             title,
             caption,
@@ -20,7 +23,7 @@ export const createPost = async (req, res) => {
         });
 
     }catch(err){
-        logger.error(err);
+        logger.error(err.stack);
         return res.status(500).json({message:"Internal server error"});
     }
 }
