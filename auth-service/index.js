@@ -6,13 +6,8 @@ import connectDB from './src/utils/db.js';
 import morgan from 'morgan';
 import compression from 'compression';
 import logger from './src/utils/logger.js';
-
-
-
 dotenv.config();
-
 const app = express();
-
 
 app.use(express.json());
 if(process.env.NODE_ENV === 'development') {
@@ -32,7 +27,8 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
+    connectDB();
     console.log(`Server is running on port ${PORT}`);
     // logger.info(`Server is running on port ${PORT}`);
-    connectDB();
+    
 });

@@ -1,7 +1,7 @@
 import PostModel from '../models/postModels.js';
-
-import logger from '../../../post-service/src/utils/logger.js';
+import logger from '../utils/logger.js';
 import { sanitizeField } from '../utils/sanitizeInputs.js';
+import { sendEvent } from '../utils/kafkaClient.js';
 
 export const createPost = async (req, res) => {
     try{
@@ -16,6 +16,14 @@ export const createPost = async (req, res) => {
             userId
         });
         const savedPost = await newPost.save();
+        await sendEvent('post-events', {
+            type:'PostCreated',
+            data:{
+                postId:newPost._id,
+                userId: newPost.userId,
+                title: newPost.title,
+            },
+        });
         logger.info(savedPost);
         return res.status(201).json({
             message:"Post created successfully",

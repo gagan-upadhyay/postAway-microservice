@@ -1,0 +1,32 @@
+{
+  "name": "analytics-service",
+  "version": "1.0.0",
+  "description": "Analytics servcie for postaway API",
+  "keywords": [
+    "analytics"
+  ],
+  "homepage": "https://github.com/gagan-upadhyay/postAway-microservice#readme",
+  "bugs": {
+    "url": "https://github.com/gagan-upadhyay/postAway-microservice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagan-upadhyay/postAway-microservice.git"
+  },
+  "license": "ISC",
+  "author": "Gagan Upadhyay",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"node --experimental-vm-modules node_modules/.bin/jest\"",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}

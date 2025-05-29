@@ -5,6 +5,7 @@ import connectDB from './src/utils/db.js';
 import router from './src/routes/postRoutes.js';
 import compression from 'compression';
 import applySecurityMiddlewares from './src/middlewares/securityMiddlewares.js';
+import { initKafka } from './src/utils/kafkaClient.js';
 
 const app = express();
 dotenv.config();
@@ -19,11 +20,11 @@ if(process.env.NODE_ENV === 'development') {
 }
 app.use(compression());
 
-
 app.use('/api/posts', router);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
+    initKafka().then(()=>console.log('Kafka connected'));
     connectDB();
 });
 // export default app;
