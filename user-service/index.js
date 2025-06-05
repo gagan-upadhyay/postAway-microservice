@@ -6,7 +6,7 @@ import router from './src/routes/postRoutes.js';
 import compression from 'compression';
 const app = express();
 dotenv.config();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
